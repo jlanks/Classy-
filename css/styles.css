@@ -1,40 +1,55 @@
 div {
-
   background-color: #5e0606;
-  padding:  20px ;
+  padding: 20px;
 }
 
 body {
   background-color: #11144c;
   margin: 0;
+
 }
 
 h1 {
   color: #ffa400;
   margin-left: 10px;
   margin-top: 0;
-
+/*  width: 10%;
+ margin: 0 auto 0 auto; */
 }
 
 p {
   color: #ffa400;
   margin-left: 10px
 }
-
-.top-container{
+img{
   background-color: #5e0606;
-  padding:  20px ;
+}
+.top-container {
+
+  background-color: #5e0606;
+  border: solid 10px;
+  border-color: green;
+  text-align: center;
+  padding: 20px;
+
 
 }
 
-.middle-container{
+.middle-container {
+
   background-color: red;
-  padding:  20px ;
+  left: 280px;
+  padding: 20px;
+
+  top: 255px;
 
 }
-.bottom-container{
-  background-color: blue;
-  padding:  20px ;
-  height: 200px;
 
+.bottom-container {
+  background-color: blue;
+  height: 200px;
+  left: 500;
+
+  /*padding: 20px;*/
+  top: 500;
 }
